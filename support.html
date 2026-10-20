@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intent Support</title>
+<style>
+  :root {
+    --bg: #f4f7ff;
+    --card: #ffffff;
+    --text: #1b1d2a;
+    --muted: #5c6075;
+    --accent: #6d4aff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12131c;
+      --card: #1c1e2b;
+      --text: #f1f2f8;
+      --muted: #a3a7bd;
+      --accent: #9b85ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 16px 64px;
+  }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .tag { color: var(--muted); margin: 0 0 28px; }
+  .card {
+    background: var(--card);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 8px; }
+  p { margin: 0 0 10px; }
+  p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Intent Support</h1>
+  <p class="tag">Remember what you meant to do.</p>
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>Questions, bugs or ideas? Email us and we will reply as soon as we can:</p>
+    <p><a href="mailto:tejash.apps@gmail.com">tejash.apps@gmail.com</a></p>
+    <p>If something is not working, please tell us your iPhone model, your iOS version and what you tapped right before the problem.</p>
+  </div>
+
+  <div class="card">
+    <h2>My reminder did not arrive</h2>
+    <p>Check these in order:</p>
+    <p>1. On your iPhone, open Settings, then Notifications, then Intent, and make sure Allow Notifications is on.</p>
+    <p>2. Check that a Focus mode (like Do Not Disturb or Sleep) is not silencing it.</p>
+    <p>3. Open the task in Intent and make sure it still has a reminder time in the future.</p>
+  </div>
+
+  <div class="card">
+    <h2>How do I use Siri with Intent?</h2>
+    <p>Say "Hey Siri, capture in Intent" and speak your task, for example "go to dance practice today at 7:30 PM". You can also find the action in the Shortcuts app and assign it to the Action Button.</p>
+    <p>If Siri does not seem to know about Intent, open Intent once, wait a minute, and try again.</p>
+  </div>
+
+  <div class="card">
+    <h2>How do I use "Got a free moment?"</h2>
+    <p>When you add a task, choose roughly how long it takes. Then tap one of the time tiles on the Today screen to see what fits. Tap the play button next to a task to start a countdown.</p>
+  </div>
+
+  <div class="card">
+    <h2>What does "Let it go" do?</h2>
+    <p>Tasks that have been waiting two weeks or more show a Let it go button. It moves the task to the Let-go shelf, which you can open from the bottom of the Today screen. You can bring any task back from there.</p>
+  </div>
+
+  <div class="card">
+    <h2>A festival date looks wrong</h2>
+    <p>Festival dates follow the lunar calendar and can differ by a day between regions. If a date does not match what your family follows, email us and we will check it. You can also turn festival notifications off in Settings.</p>
+  </div>
+
+  <div class="card">
+    <h2>Where is my data stored?</h2>
+    <p>Your tasks stay on your phone. Intent has no account and no sign-up. Deleting the app deletes your tasks, so the data is not recoverable afterwards. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+  </div>
+
+  <footer>&copy; Intent. Contact: <a href="mailto:tejash.apps@gmail.com">tejash.apps@gmail.com</a></footer>
+</main>
+</body>
+</html>
